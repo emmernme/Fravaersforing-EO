@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2000DD941A4AEF5100419111 /* Export.html in Resources */ = {isa = PBXBuildFile; fileRef = 2000DD931A4AEF5100419111 /* Export.html */; };
+		2000DD961A4B0A0100419111 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2000DD951A4B0A0100419111 /* Logo.png */; };
+		203752BA1A477D4100F4CBFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203752B91A477D4100F4CBFD /* AppDelegate.swift */; };
+		203752BC1A477D4100F4CBFD /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203752BB1A477D4100F4CBFD /* MasterViewController.swift */; };
+		203752BE1A477D4100F4CBFD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203752BD1A477D4100F4CBFD /* DetailViewController.swift */; };
+		203752C11A477D4100F4CBFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203752BF1A477D4100F4CBFD /* Main.storyboard */; };
+		203752C31A477D4100F4CBFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 203752C21A477D4100F4CBFD /* Images.xcassets */; };
+		203752C61A477D4100F4CBFD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 203752C41A477D4100F4CBFD /* LaunchScreen.xib */; };
+		203752D21A477D4100F4CBFD /* Frav_rsf_ring_EOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203752D11A477D4100F4CBFD /* Frav_rsf_ring_EOTests.swift */; };
+		2048DBD81A4CC51600B52698 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2048DBD71A4CC51600B52698 /* ShareViewController.swift */; };
+		2048DBDA1A4D9E9A00B52698 /* jquery-2.1.3.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2048DBD91A4D9E9A00B52698 /* jquery-2.1.3.min.js */; };
+		206138FE1A49B31000A71F3F /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206138FD1A49B31000A71F3F /* CustomCell.swift */; };
+		206139021A4A1ECD00A71F3F /* Section Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 206138FF1A4A1ECD00A71F3F /* Section Medium.otf */; };
+		206139031A4A1ECD00A71F3F /* Section Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 206139001A4A1ECD00A71F3F /* Section Light.otf */; };
+		2098FA101A50549000A3D3D5 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098FA0F1A50549000A3D3D5 /* SplashViewController.swift */; };
+		2098FA1A1A50B37300A3D3D5 /* hawcons.eot in Resources */ = {isa = PBXBuildFile; fileRef = 2098FA161A50B37300A3D3D5 /* hawcons.eot */; };
+		2098FA1B1A50B37300A3D3D5 /* hawcons.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2098FA171A50B37300A3D3D5 /* hawcons.svg */; };
+		2098FA1C1A50B37300A3D3D5 /* hawcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2098FA181A50B37300A3D3D5 /* hawcons.ttf */; };
+		2098FA1D1A50B37300A3D3D5 /* hawcons.woff in Resources */ = {isa = PBXBuildFile; fileRef = 2098FA191A50B37300A3D3D5 /* hawcons.woff */; };
+		2098FA2A1A520E2100A3D3D5 /* PDFPageRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2098FA291A520E2100A3D3D5 /* PDFPageRenderer.m */; };
+		2098FA2C1A52F56A00A3D3D5 /* App1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2098FA2B1A52F56A00A3D3D5 /* App1.png */; };
+		2098FA391A53636700A3D3D5 /* Logo hvit.png in Resources */ = {isa = PBXBuildFile; fileRef = 2098FA371A53636700A3D3D5 /* Logo hvit.png */; };
+		2098FA3A1A53636700A3D3D5 /* Logo hvit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2098FA381A53636700A3D3D5 /* Logo hvit@2x.png */; };
+		20BD86501A4A38F0005A6CF1 /* EO.png in Resources */ = {isa = PBXBuildFile; fileRef = 20BD864F1A4A38F0005A6CF1 /* EO.png */; };
+		20C45A8F1A4F6FFC00818B15 /* Veileder.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 20C45A8E1A4F6FFC00818B15 /* Veileder.pdf */; };
+		20C45A911A4F734000818B15 /* Veileder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C45A901A4F734000818B15 /* Veileder.swift */; };
+		20D1AB8B1C4E4E130068FD41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D1AB8A1C4E4E130068FD41 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		203752CC1A477D4100F4CBFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 203752AC1A477D4100F4CBFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 203752B31A477D4100F4CBFD;
+			remoteInfo = "Fraværsføring EO";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2000DD931A4AEF5100419111 /* Export.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Export.html; sourceTree = "<group>"; };
+		2000DD951A4B0A0100419111 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		203752B41A477D4100F4CBFD /* Fraværsføring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fraværsføring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		203752B81A477D4100F4CBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		203752B91A477D4100F4CBFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		203752BB1A477D4100F4CBFD /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		203752BD1A477D4100F4CBFD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		203752C01A477D4100F4CBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		203752C21A477D4100F4CBFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		203752C51A477D4100F4CBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		203752CB1A477D4100F4CBFD /* EO HedmarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EO HedmarkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		203752D01A477D4100F4CBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		203752D11A477D4100F4CBFD /* Frav_rsf_ring_EOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frav_rsf_ring_EOTests.swift; sourceTree = "<group>"; };
+		2048DBD71A4CC51600B52698 /* ShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		2048DBD91A4D9E9A00B52698 /* jquery-2.1.3.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-2.1.3.min.js"; sourceTree = "<group>"; };
+		206138FD1A49B31000A71F3F /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		206138FF1A4A1ECD00A71F3F /* Section Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Section Medium.otf"; path = "../Section Medium.otf"; sourceTree = "<group>"; };
+		206139001A4A1ECD00A71F3F /* Section Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Section Light.otf"; path = "../Section Light.otf"; sourceTree = "<group>"; };
+		2098FA0F1A50549000A3D3D5 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		2098FA161A50B37300A3D3D5 /* hawcons.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = hawcons.eot; sourceTree = "<group>"; };
+		2098FA171A50B37300A3D3D5 /* hawcons.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hawcons.svg; sourceTree = "<group>"; };
+		2098FA181A50B37300A3D3D5 /* hawcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = hawcons.ttf; sourceTree = "<group>"; };
+		2098FA191A50B37300A3D3D5 /* hawcons.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = hawcons.woff; sourceTree = "<group>"; };
+		2098FA271A520E2000A3D3D5 /* EO Hedmark-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EO Hedmark-Bridging-Header.h"; sourceTree = "<group>"; };
+		2098FA281A520E2100A3D3D5 /* PDFPageRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFPageRenderer.h; sourceTree = "<group>"; };
+		2098FA291A520E2100A3D3D5 /* PDFPageRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFPageRenderer.m; sourceTree = "<group>"; };
+		2098FA2B1A52F56A00A3D3D5 /* App1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = App1.png; sourceTree = "<group>"; };
+		2098FA371A53636700A3D3D5 /* Logo hvit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo hvit.png"; sourceTree = "<group>"; };
+		2098FA381A53636700A3D3D5 /* Logo hvit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo hvit@2x.png"; sourceTree = "<group>"; };
+		20BD864F1A4A38F0005A6CF1 /* EO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EO.png; sourceTree = "<group>"; };
+		20C45A8E1A4F6FFC00818B15 /* Veileder.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Veileder.pdf; sourceTree = "<group>"; };
+		20C45A901A4F734000818B15 /* Veileder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Veileder.swift; sourceTree = "<group>"; };
+		20D1AB8A1C4E4E130068FD41 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		203752B11A477D4100F4CBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D1AB8B1C4E4E130068FD41 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203752C81A477D4100F4CBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		203752AB1A477D4100F4CBFD = {
+			isa = PBXGroup;
+			children = (
+				20D1AB8A1C4E4E130068FD41 /* UIKit.framework */,
+				203752B61A477D4100F4CBFD /* Fraværsføring EO */,
+				203752CE1A477D4100F4CBFD /* Fraværsføring EOTests */,
+				203752B51A477D4100F4CBFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		203752B51A477D4100F4CBFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				203752B41A477D4100F4CBFD /* Fraværsføring.app */,
+				203752CB1A477D4100F4CBFD /* EO HedmarkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		203752B61A477D4100F4CBFD /* Fraværsføring EO */ = {
+			isa = PBXGroup;
+			children = (
+				203752B91A477D4100F4CBFD /* AppDelegate.swift */,
+				2098FA0F1A50549000A3D3D5 /* SplashViewController.swift */,
+				203752BB1A477D4100F4CBFD /* MasterViewController.swift */,
+				20C45A901A4F734000818B15 /* Veileder.swift */,
+				203752BD1A477D4100F4CBFD /* DetailViewController.swift */,
+				2048DBD71A4CC51600B52698 /* ShareViewController.swift */,
+				206138FD1A49B31000A71F3F /* CustomCell.swift */,
+				2000DD931A4AEF5100419111 /* Export.html */,
+				20C45A8E1A4F6FFC00818B15 /* Veileder.pdf */,
+				2048DBD91A4D9E9A00B52698 /* jquery-2.1.3.min.js */,
+				203752BF1A477D4100F4CBFD /* Main.storyboard */,
+				203752C21A477D4100F4CBFD /* Images.xcassets */,
+				2098FA151A50B37300A3D3D5 /* fonts */,
+				2098FA281A520E2100A3D3D5 /* PDFPageRenderer.h */,
+				2098FA291A520E2100A3D3D5 /* PDFPageRenderer.m */,
+				2098FA371A53636700A3D3D5 /* Logo hvit.png */,
+				2098FA381A53636700A3D3D5 /* Logo hvit@2x.png */,
+				203752C41A477D4100F4CBFD /* LaunchScreen.xib */,
+				20BD864F1A4A38F0005A6CF1 /* EO.png */,
+				2000DD951A4B0A0100419111 /* Logo.png */,
+				2098FA2B1A52F56A00A3D3D5 /* App1.png */,
+				203752B71A477D4100F4CBFD /* Supporting Files */,
+				2098FA271A520E2000A3D3D5 /* EO Hedmark-Bridging-Header.h */,
+			);
+			path = "Fraværsføring EO";
+			sourceTree = "<group>";
+		};
+		203752B71A477D4100F4CBFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				203752B81A477D4100F4CBFD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		203752CE1A477D4100F4CBFD /* Fraværsføring EOTests */ = {
+			isa = PBXGroup;
+			children = (
+				203752D11A477D4100F4CBFD /* Frav_rsf_ring_EOTests.swift */,
+				203752CF1A477D4100F4CBFD /* Supporting Files */,
+			);
+			path = "Fraværsføring EOTests";
+			sourceTree = "<group>";
+		};
+		203752CF1A477D4100F4CBFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				203752D01A477D4100F4CBFD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2098FA151A50B37300A3D3D5 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				206138FF1A4A1ECD00A71F3F /* Section Medium.otf */,
+				206139001A4A1ECD00A71F3F /* Section Light.otf */,
+				2098FA161A50B37300A3D3D5 /* hawcons.eot */,
+				2098FA171A50B37300A3D3D5 /* hawcons.svg */,
+				2098FA181A50B37300A3D3D5 /* hawcons.ttf */,
+				2098FA191A50B37300A3D3D5 /* hawcons.woff */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		203752B31A477D4100F4CBFD /* EO Hedmark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 203752D51A477D4100F4CBFD /* Build configuration list for PBXNativeTarget "EO Hedmark" */;
+			buildPhases = (
+				203752B01A477D4100F4CBFD /* Sources */,
+				203752B11A477D4100F4CBFD /* Frameworks */,
+				203752B21A477D4100F4CBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EO Hedmark";
+			productName = "Fraværsføring EO";
+			productReference = 203752B41A477D4100F4CBFD /* Fraværsføring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		203752CA1A477D4100F4CBFD /* EO HedmarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 203752D81A477D4100F4CBFD /* Build configuration list for PBXNativeTarget "EO HedmarkTests" */;
+			buildPhases = (
+				203752C71A477D4100F4CBFD /* Sources */,
+				203752C81A477D4100F4CBFD /* Frameworks */,
+				203752C91A477D4100F4CBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				203752CD1A477D4100F4CBFD /* PBXTargetDependency */,
+			);
+			name = "EO HedmarkTests";
+			productName = "Fraværsføring EOTests";
+			productReference = 203752CB1A477D4100F4CBFD /* EO HedmarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		203752AC1A477D4100F4CBFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Emil Broll";
+				TargetAttributes = {
+					203752B31A477D4100F4CBFD = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 6995W38638;
+					};
+					203752CA1A477D4100F4CBFD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 203752B31A477D4100F4CBFD;
+					};
+				};
+			};
+			buildConfigurationList = 203752AF1A477D4100F4CBFD /* Build configuration list for PBXProject "Fraværsføring" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 203752AB1A477D4100F4CBFD;
+			productRefGroup = 203752B51A477D4100F4CBFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				203752B31A477D4100F4CBFD /* EO Hedmark */,
+				203752CA1A477D4100F4CBFD /* EO HedmarkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		203752B21A477D4100F4CBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2098FA2C1A52F56A00A3D3D5 /* App1.png in Resources */,
+				2098FA1A1A50B37300A3D3D5 /* hawcons.eot in Resources */,
+				20BD86501A4A38F0005A6CF1 /* EO.png in Resources */,
+				2098FA3A1A53636700A3D3D5 /* Logo hvit@2x.png in Resources */,
+				2000DD961A4B0A0100419111 /* Logo.png in Resources */,
+				2098FA1D1A50B37300A3D3D5 /* hawcons.woff in Resources */,
+				20C45A8F1A4F6FFC00818B15 /* Veileder.pdf in Resources */,
+				203752C11A477D4100F4CBFD /* Main.storyboard in Resources */,
+				203752C61A477D4100F4CBFD /* LaunchScreen.xib in Resources */,
+				2000DD941A4AEF5100419111 /* Export.html in Resources */,
+				2098FA1C1A50B37300A3D3D5 /* hawcons.ttf in Resources */,
+				206139021A4A1ECD00A71F3F /* Section Medium.otf in Resources */,
+				2048DBDA1A4D9E9A00B52698 /* jquery-2.1.3.min.js in Resources */,
+				2098FA391A53636700A3D3D5 /* Logo hvit.png in Resources */,
+				206139031A4A1ECD00A71F3F /* Section Light.otf in Resources */,
+				2098FA1B1A50B37300A3D3D5 /* hawcons.svg in Resources */,
+				203752C31A477D4100F4CBFD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203752C91A477D4100F4CBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		203752B01A477D4100F4CBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2098FA2A1A520E2100A3D3D5 /* PDFPageRenderer.m in Sources */,
+				203752BE1A477D4100F4CBFD /* DetailViewController.swift in Sources */,
+				2098FA101A50549000A3D3D5 /* SplashViewController.swift in Sources */,
+				203752BC1A477D4100F4CBFD /* MasterViewController.swift in Sources */,
+				206138FE1A49B31000A71F3F /* CustomCell.swift in Sources */,
+				20C45A911A4F734000818B15 /* Veileder.swift in Sources */,
+				2048DBD81A4CC51600B52698 /* ShareViewController.swift in Sources */,
+				203752BA1A477D4100F4CBFD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203752C71A477D4100F4CBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203752D21A477D4100F4CBFD /* Frav_rsf_ring_EOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		203752CD1A477D4100F4CBFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 203752B31A477D4100F4CBFD /* EO Hedmark */;
+			targetProxy = 203752CC1A477D4100F4CBFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		203752BF1A477D4100F4CBFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				203752C01A477D4100F4CBFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		203752C41A477D4100F4CBFD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				203752C51A477D4100F4CBFD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		203752D31A477D4100F4CBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		203752D41A477D4100F4CBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		203752D61A477D4100F4CBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_LOADER = "";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Fraværsføring EO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.broll.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Fraværsføring";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Fraværsføring EO/EO Hedmark-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		203752D71A477D4100F4CBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_LOADER = "";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Fraværsføring EO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.broll.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Fraværsføring";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Fraværsføring EO/EO Hedmark-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		203752D91A477D4100F4CBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Fraværsføring EOTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.broll.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "EO HedmarkTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fraværsføring.app/Fraværsføring";
+			};
+			name = Debug;
+		};
+		203752DA1A477D4100F4CBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Fraværsføring EOTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.broll.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "EO HedmarkTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fraværsføring.app/Fraværsføring";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		203752AF1A477D4100F4CBFD /* Build configuration list for PBXProject "Fraværsføring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				203752D31A477D4100F4CBFD /* Debug */,
+				203752D41A477D4100F4CBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		203752D51A477D4100F4CBFD /* Build configuration list for PBXNativeTarget "EO Hedmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				203752D61A477D4100F4CBFD /* Debug */,
+				203752D71A477D4100F4CBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		203752D81A477D4100F4CBFD /* Build configuration list for PBXNativeTarget "EO HedmarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				203752D91A477D4100F4CBFD /* Debug */,
+				203752DA1A477D4100F4CBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 203752AC1A477D4100F4CBFD /* Project object */;
+}

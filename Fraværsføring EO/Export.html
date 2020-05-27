@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<style>
+		html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+	
+		* {
+			box-sizing: border-box;
+		}
+		@font-face {
+  			font-family: 'Section';
+ 			src: url('Section Medium.otf') format('opentype');
+ 			font-weight: bold;
+ 		}
+		@font-face {
+  			font-family: 'Section';
+ 			src: url('Section Light.otf') format('opentype');
+ 		}
+
+		body {
+			font-family: "Section";
+			margin: 0;
+			padding: 20px;
+		}
+		header {
+			width: 100%;
+			position: relative;
+			margin-bottom: 20px;
+		}
+		header * {
+			display: inline-block;
+		}
+		header h1 {
+			width: 80%;
+			margin: 0;
+			float: left;
+		}
+		header img {
+			width: 20%;
+		}
+		main {
+			width: 100%;
+			padding: 10px 0;
+		}
+		main table {
+			width: 100%;
+			border: 1px solid silver;
+			border-collapse: collapse;
+		}
+		thead {
+			background: rgb(240,240,240);
+		}
+		</style>
+		<script type="text/javascript" src="jquery-2.1.3.min.js"></script>
+		<script type="text/javascript">
+		var loadData = function(json){
+			var data = JSON.parse(json);
+			for (var i in data){
+				var append = "<tr><td>" + (data[i]["navn"]||'') + "</td><td>" + (data[i]["dato"]||'') + "</td><td>" + (data[i]["fag"]||'') + "</td><td>" + (data[i]["time"]||'') + "</td><td>" + (data[i]["minutter"]||'') + "</td></tr>";
+				$('#table').append(append);
+			}
+		}
+		</script>
+	</head>
+	<body>
+		<header>
+			<h1>Fraværsføringsskjema for tillitselever i Hedmark fylke</h1>
+			<img src="Logo.png" />
+		</header>
+		<main>
+			<table border="1px solid black" id="table">
+				<thead>
+					<td>Lærerens navn</td>
+					<td>Dato</td>
+					<td>Fag</td>
+					<td>Time nr.</td>
+					<td>Antall min. borte</td>
+				</thead>
+			</table>
+		</main>
+	</body>
+</html>
